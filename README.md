@@ -38,6 +38,8 @@ Instruction was provided by Instructor Saurav with assistance from TAs Andreas #
 
 Additionally, I used or reviewed portions of the code-base provided to students in activities 06 for create, 08 for update and delete, 24 for models, and 26 for routes - referencing some of its code or syntax for our assignment. My purpose was to further familize myself with the various ways to implement the required backend functionality.
 
+Based on a valuable tip from Instructor Saurav. I also researched the "belongsToMany ... through:" model function.
+
 ## Tests
 
 The Project may tested using the installation instructions above and running 'npm run start'and then using Insomnia and/or MySQL Workbench 6.0 CE to confirm and maniulate the status of the database. Please see the Demonstration Video above for a walkthrough.
