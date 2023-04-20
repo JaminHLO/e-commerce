@@ -1,0 +1,23 @@
+{
+	"category_name": "Sports"
+}
+
+
+{
+	"tag_name": "sports equipment"
+}
+
+{
+      "product_name": "Basketball",
+      "price": 200.00,
+      "stock": 3,
+      "tagIds": [4, 5, 9]
+}
+
+{
+	"category_id": 6
+}
+
+{
+	"tag_name": "ball"
+}
