@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Tag, Product, ProductTag } = require('../../models');
 
 // The `/api/tags` endpoint
-
+// use async arrow function to enable await
 router.get('/', async (req, res) => {
   // find all tags
   try {
@@ -16,6 +16,7 @@ router.get('/', async (req, res) => {
   }
 });
 
+// use async arrow function to enable await for get product by id
 router.get('/:id', async (req, res) => {
   // find a single tag by its `id`
   try {
@@ -34,6 +35,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
+// use async arrow function to enable await for create new tag
 router.post('/', async (req, res) => {
   // create a new tag
   try {
@@ -44,6 +46,7 @@ router.post('/', async (req, res) => {
   }
 });
 
+// use async arrow function to enable await for update tag by id
 router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
   try {
@@ -67,6 +70,7 @@ router.put('/:id', async (req, res) => {
   }
 });
 
+// use async arrow function to enable await for delete tag by id
 router.delete('/:id', async (req, res) => {
   // delete on tag by its `id` value
   try {

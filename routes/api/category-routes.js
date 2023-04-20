@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Category, Product } = require('../../models');
 
 // The `/api/categories` endpoint
-
+// use async arrow function to enable await for get all categories
 router.get('/', async (req, res) => {
   // find all categories
   try {
@@ -16,6 +16,7 @@ router.get('/', async (req, res) => {
   }
 });
 
+// use async arrow function to enable await for get category by id
 router.get('/:id', async (req, res) => {
   // find one category by its `id` value
   try {
@@ -34,6 +35,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
+// use async arrow function to enable await for create category
 router.post('/', async (req, res) => {
   // create a new category
   try {
@@ -44,6 +46,7 @@ router.post('/', async (req, res) => {
   }
 });
 
+// use async arrow function to enable await for update category by id
 router.put('/:id', async (req, res) => {
   // update a category by its `id` value
   try {
@@ -67,6 +70,7 @@ router.put('/:id', async (req, res) => {
   }
 });
 
+// use async arrow function to enable await for delete category by id
 router.delete('/:id', async (req, res) => {
   // delete a category by its `id` value
   try {

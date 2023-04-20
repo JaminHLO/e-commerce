@@ -4,6 +4,7 @@ const { Product, Category, Tag, ProductTag } = require('../../models');
 // The `/api/products` endpoint
 
 // get all products
+// use async arrow function to enable await for get all products
 router.get('/', async (req, res) => {
   // find all products
   try {
@@ -18,9 +19,10 @@ router.get('/', async (req, res) => {
 });
 
 // get one product
+// use async arrow function to enable await for get product by id
 router.get('/:id', async (req, res) => {
   // find a single product by its `id`
-  try {
+  try { 
     const productData = await Product.findByPk(req.params.id, {
   // be sure to include its associated Category and Tag data
   include: [{ model: Category }, { model: Tag}],
@@ -110,9 +112,11 @@ router.put('/:id', (req, res) => {
     });
 });
 
+// use async arrow function to enable await
 router.delete('/:id', async (req, res) => {
   // delete one product by its `id` value
   try {
+    // await result before proceeding
     const productData = await Product.destroy({
       where: {
         id: req.params.id,

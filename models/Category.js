@@ -7,6 +7,7 @@ class Category extends Model {}
 Category.init(
   {
     // define columns
+    // id as primary key that auto increments
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
