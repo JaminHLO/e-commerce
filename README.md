@@ -30,13 +30,13 @@ This Project is covered by the following license: GNU General Public License v3.
 
 ## Contributions
 
+Starter code was provided by: <br>
+Xander Rapstine: https://github.com/Xandromus <br>
+Our Robot Friend: dependabot[bot]: https://github.com/apps/dependabot <br>
+
 Instruction was provided by Instructor Saurav with assistance from TAs Andreas #1, Andreas #2, Constan, and Morgan. 
 
-Leaned on previous assignments and online resources. A good online resource I used was: 
-<https://www.w3schools.com/>
-
-For a good resource for javascript debugging and error messages, check out: 
-<https://stackoverflow.com/>
+Additionally, I used or reviewed portions of the code-base provided to students in activities 06 for create, 08 for update and delete, 24 for models, and 26 for routes - referencing some of its code or syntax for our assignment. My purpose was to further familize myself with the various ways to implement the required backend functionality.
 
 ## Tests
 
