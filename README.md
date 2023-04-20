@@ -22,7 +22,7 @@ Set-Up CLI Commands from project root directory:
 A Demonstration Video showing the setup and functionality of the program is available here: <https://www.loom.com/share/a137544a78c043258a147e612f452f60> <br>
 Otherwise, the program server is initialized in the project root directory with:
 >npm run start<br>
-Within Insomnia GET, PUT, POST, and DELETE commands may be used from: <http://localhost:3001/api/> as long as the user enters one of the follow folders: "categories", "products", or "tags". GET, PUT and DELETE commands may be used on individual records using the syntax <http://localhost:3001/api/products/1> - where products could also be tags or categories. The syntax of entries using PUT or POST commands are shown in the demonstration video above.
+Within Insomnia GET, PUT, POST, and DELETE commands may be used from: <http://localhost:3001/api/> as long as the user enters one of the following folders: "categories", "products", or "tags". GET, PUT and DELETE commands may be used on individual records using the syntax <http://localhost:3001/api/products/1> - where products could also be tags or categories. The syntax of entries using PUT or POST commands are shown in the demonstration video above.
 
 ## License
 
